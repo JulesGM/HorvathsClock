@@ -7,7 +7,7 @@ LOGGER = logging.getLogger(__name__)
 def logging_basic_config(level=logging.DEBUG):
     logging.basicConfig(
         level=level,
-        format="[%(asctime)s %(levelname)s %(module)s.%(funcname)s] %(message)s",
+        format="[%(asctime)s %(levelname)s %(module)s.%(funcName)s] %(message)s",
     )
 
 def load_split_data(path):

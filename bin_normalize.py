@@ -14,6 +14,7 @@ LOGGER = logging.getLogger(__name__)
 def main(path):
     # Logger basic config
     lib_utils.logging_basic_config()
+    path = pathlib.Path(path)
     data = lib_utils.load_split_data(path)
 
     LOGGER.debug("Normalizing.")
