@@ -14,7 +14,7 @@ The data is filtered to keep only the columns that have 10 or less missing value
 
 The data is then imputed using the mean method (missing values are replaced by their average). Imputation is required by linear methods.
 
-The features columns are then selected in decreasing order of their r score. We get very good results with the most correlated 1000 features, & the model finds up to 50%+ sparsity in those, even.
+The features columns are then selected in decreasing order of their F Statistic. We get very good results with the most correlated 1000 features, & the model finds up to 50%+ sparsity in those, even.
 
 The analysis takes place in `main.ipynb`.
 
