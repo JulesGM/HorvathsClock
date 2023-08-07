@@ -11,13 +11,13 @@ We find a median absolute error of ~2.5 years and a R**2 of score of 94, using a
 
 - Download the data from: https://download.cncb.ac.cn/ewas/datahub/download/age_methylation_v1.zip
 
-- Extract the data to the h5 format with `txt_data_to_h5_data.py`
+- Extract the data to the h5 format with [txt_data_to_h5_data.py](txt_data_to_h5_data.py).
 
-- The data needs to be extracted, shuffled & split. Use `bin_shuffle_split.py`.
+- The data needs to be extracted, shuffled & split. Use [bin_shuffle_split.py](bin_shuffle_split.py).
 
-- The rest is done in `main.ipynb` directly, not in the individual scripts.
+- The rest is done in [main.ipynb](main.ipynb) directly, not in the individual scripts.
 
-In main.ipynb, 
+In [main.ipynb](main.ipynb), 
 
 - The data is filtered to keep only the columns that have 10 or less missing values. This leaves us with ~ 125k wide vectors.
 
